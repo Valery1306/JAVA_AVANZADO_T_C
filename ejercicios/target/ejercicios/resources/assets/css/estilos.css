@@ -1,0 +1,176 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Lucida Sans', sans-serif;
+  background-image: url("../img/f.png");
+  background-size: cover;
+
+}
+
+.servi {
+  background-image: url("../img/fon4.png");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+.inicio {
+  display: flex;
+  font-size: 200%;
+}
+
+.inicio img {
+  width: 100%;
+  height: 50%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: left;
+  display: flex;
+  color: rgb(9, 0, 139);
+  text-align: center;
+  padding: 20px 60px;
+  text-decoration: solid;
+  font-size: 25px;
+
+}
+
+li a {
+  color: rgb(22, 59, 240);
+  text-decoration: none;
+}
+
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  color: rgb(25, 0, 247);
+  font-size: 300%;
+}
+
+.parr {
+  font-family: 'Lucida Sans', sans-serif;
+  color: rgb(25, 0, 247);
+  font-size: 100%;
+  animation: 3s slidein;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+.textos {
+  font-size: 45px;
+  color: rgb(248, 59, 131);
+
+}
+
+.image img{
+  display: inline-block;
+  max-width: 50%;
+}
+
+
+
+.men{
+  background-image: url("../img/fon4.png");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+div{
+  height: 100%;
+  width: 100%;
+}
+div a{
+color:rgb(236, 151, 194);
+display: block;
+padding: 12px;
+width: 2000px;
+height: 1000%;
+display: flex;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align:center;
+
+
+}
+
+div .active {
+  color:hotpink;
+  font-family: fantasy;
+  text-align: center;
+  
+  
+}
+.celu{
+  width: 45%;
+  height: 30%;
+}
+
+.pa{
+  color: rgba(247, 68, 202, 0.719);
+  font-family: fantasy;
+  text-align: center;
+  font-size: 200%;
+}
+
+
+.lo{
+    background-image: url("../img/login.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+
+.desc {
+
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ 
+  }
+  
+  form  {
+  text-align: center;  
+  margin-bottom: 30px;
+  }
+  
+  .ola {
+    
+  width: 90%; 
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  }
+
+  pol{
+    background-image: url("../img/fon4.png");
+    background-size: cover;
+  }
+ 
